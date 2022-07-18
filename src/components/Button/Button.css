@@ -1,0 +1,38 @@
+div[class*="btn"] {
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-eff:hover {
+    opacity: 0.8;
+}
+
+.btn-eff:active {
+    opacity: 1;
+}
+
+.btn-a {
+	width: 105px;
+}
+
+.btn-b {
+	width: 220px;
+}
+
+.btn-inc {
+	background-color: gainsboro;
+}
+
+.btn-dec {
+	background-color: gainsboro;
+}
+
+.btn-res {
+    color: white;
+	background-color: black;
+}
